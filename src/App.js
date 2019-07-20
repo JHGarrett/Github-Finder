@@ -4,7 +4,7 @@ import Users from './components/users/Users';
 import Search from './components/users/Search';
 import axios from 'axios';
 import './App.css';
-import { async } from 'q';
+// import Async  from 'q';
 
 class App extends Component {
   state = {
@@ -27,6 +27,8 @@ class App extends Component {
   // search github users
   searchUsers = async text => {
     this.setState({ loading: true });
+
+
     const res = await axios.get(
       `https://api.github.com/search/users?q=${text}&client_id=$
       {process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${
