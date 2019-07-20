@@ -11,8 +11,14 @@ Demo Site: [Github-Finder](https://jhgarrett.github.io/github-finder/)
 If you would like to try it out.
 
 #Build Tools
-* React, React Router & React Router Dom
+* React, React Router, & React Router Dom
 * NodeJS
 * NPM
 * Axios
 * Github API
+
+# Install Locally
+To install locally:
+1. Fork the Repo
+2. npm install
+3. npm start
