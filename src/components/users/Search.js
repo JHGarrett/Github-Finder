@@ -5,9 +5,7 @@ export class Search extends Component {
     text: '',
   };
 
-  onSubmit = e => {
-      
-  }
+  onSubmit = e => {};
 
   onChange = e => {
     this.setState({ [e.target.name]: e.target.value });
